@@ -1,14 +1,15 @@
 #! /usr/bin/env python3
 # coding: utf-8
+import complement
 def montant(nombre):
-	repeter = messageacopier()
+	repeter = messageacopier(nombre)
 	texte = nombre * repeter
 	print (texte)
 
 
 
-def messageacopier():
-	message=input("entrer le message")
+def messageacopier(nombre):
+	message=complement.selection_message(nombre)
 	if len(message)>5:
 		return "trop long ! "
 	else:

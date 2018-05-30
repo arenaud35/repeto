@@ -1,7 +1,8 @@
 #! /usr/bin/env python3
 # coding: utf-8
 def montant(nombre):
-	texte = nombre * "Ah!"
+	repeter = messageacopier()
+	texte = nombre * repeter
 	print texte
 
 message=[]

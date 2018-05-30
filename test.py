@@ -5,7 +5,8 @@ def montant(nombre):
 	texte = nombre * repeter
 	print texte
 
-message=[]
+
+
 def messageacopier():
 	message=input("entrer le message")
 	return message

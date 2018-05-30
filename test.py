@@ -10,6 +10,7 @@ def montant(nombre):
 def messageacopier():
 	message=input("entrer le message")
 	if len(message)>5:
-		return "trop long"
-	Else:
+		return "trop long ! "
+	else:
 		return message
+ 

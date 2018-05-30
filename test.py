@@ -3,7 +3,7 @@
 def montant(nombre):
 	repeter = messageacopier()
 	texte = nombre * repeter
-	print texte
+	print (texte)
 
 
 
